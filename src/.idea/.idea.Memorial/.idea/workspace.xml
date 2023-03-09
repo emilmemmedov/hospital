@@ -5,7 +5,32 @@
     <projectFile profileName="Memorial.API">API/Memorial.API.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebcedd0b-ec64-4f9d-bb9d-e8eeca01b0b1" name="Changes" comment="" />
+    <list default="true" id="ebcedd0b-ec64-4f9d-bb9d-e8eeca01b0b1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Memorial/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Memorial/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/API/Startup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.dll" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/Debug/net5.0/Memorial.API.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/API/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/API/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Common/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Common/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Application/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Application/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Domain/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Domain/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/Configuration/DataAccess/DataAccessModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/Configuration/DataAccess/DataAccessModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/Configuration/HospitalModuleStartup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/Configuration/HospitalModuleStartup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/HospitalModule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/HospitalModule.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/ref/Memorial.Modules.Hospital.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/bin/Debug/net5.0/ref/Memorial.Modules.Hospital.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/Memorial.Modules.Hospital.Infrastructure.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/ref/Memorial.Modules.Hospital.Infrastructure.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/Debug/net5.0/ref/Memorial.Modules.Hospital.Infrastructure.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/Modules/Hospital/Infrastructure/obj/rider.project.restore.info" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,6 +54,8 @@
     <setting file="file://$PROJECT_DIR$/API/bin/Debug/net5.0/Memorial.API.runtimeconfig.json" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/API/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modules/Common/Models/BaseModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modules/Common/bin/Debug/net5.0/Memorial.Modules.Common.deps.json" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Modules/Common/obj/Debug/net5.0/.NETCoreApp,Version=v5.0.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modules/Hospital/Application/Commands/CreateHospitalCommand.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modules/Hospital/Domain/Models/HospitalEntity.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Modules/Hospital/Infrastructure/Configuration/HospitalModuleStartup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -38,28 +65,31 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MZ0CcoLf3JQxPlOLcI5nfIGnmi" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/emil/Documents/projects/dotnet-core/modular-monolith-with-ddd",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.environmentSetup",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/emil/Documents/projects/dotnet-core/modular-monolith-with-ddd&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.environmentSetup&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "/home/emil/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache",
-      "/home/emil/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache",
-      "/home/emil/.local/share/Symbols/src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/home/emil/.config/JetBrains/Rider2022.3/resharper-host/DecompilerCache&quot;,
+      &quot;/home/emil/.config/JetBrains/Rider2022.3/resharper-host/SourcesCache&quot;,
+      &quot;/home/emil/.local/share/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Memorial.API">
     <configuration name="API" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/API/API.csproj" />

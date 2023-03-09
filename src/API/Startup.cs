@@ -6,6 +6,7 @@ using Autofac;
 using Autofac.Extensions.DependencyInjection;
 using Memorial.API.Modules.Hospital;
 using Memorial.Modules.Hospital.Infrastructure;
+using Memorial.Modules.Hospital.Infrastructure.Configuration;
 using Memorial.Modules.Hospital.Infrastructure.Persistence;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -33,10 +34,8 @@ namespace Memorial.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddEntityFrameworkNpgsql().AddDbContext<HospitalDbContext>(options =>
-            // {
-            //     options.UseNpgsql(Configuration.GetConnectionString("PostgresDBConnection"));
-            // });
+            InitializeModules(services);
+            
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -47,10 +46,6 @@ namespace Memorial.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            var container = app.ApplicationServices.GetAutofacRoot();
-            
-            InitializeModules(container);
-            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -74,11 +69,12 @@ namespace Memorial.API
             containerBuilder.RegisterModule(new HospitalAutofacModule());
         }
 
-        private void InitializeModules(ILifetimeScope container)
+        private void InitializeModules(IServiceCollection service)
         {
             HospitalModuleStartup
                 .Initialize(
-                    Configuration.GetConnectionString("PostgresDBConnection")
+                    Configuration.GetConnectionString("PostgresDBConnection"),
+                    service
                 );
         }
     }
