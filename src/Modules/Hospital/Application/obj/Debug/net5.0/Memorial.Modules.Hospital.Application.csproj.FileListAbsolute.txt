@@ -1,0 +1,12 @@
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/bin/Debug/net5.0/Memorial.Modules.Hospital.Application.deps.json
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/bin/Debug/net5.0/Memorial.Modules.Hospital.Application.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/bin/Debug/net5.0/ref/Memorial.Modules.Hospital.Application.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/bin/Debug/net5.0/Memorial.Modules.Hospital.Application.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.csproj.AssemblyReference.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.AssemblyInfoInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.AssemblyInfo.cs
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.csproj.CoreCompileInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/ref/Memorial.Modules.Hospital.Application.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/Debug/net5.0/Memorial.Modules.Hospital.Application.pdb

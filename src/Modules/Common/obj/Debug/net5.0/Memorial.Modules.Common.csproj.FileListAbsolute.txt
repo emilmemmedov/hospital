@@ -1,0 +1,12 @@
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/bin/Debug/net5.0/Memorial.Modules.Common.deps.json
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/bin/Debug/net5.0/Memorial.Modules.Common.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/bin/Debug/net5.0/ref/Memorial.Modules.Common.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/bin/Debug/net5.0/Memorial.Modules.Common.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.csproj.AssemblyReference.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.GeneratedMSBuildEditorConfig.editorconfig
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.AssemblyInfoInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.AssemblyInfo.cs
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.csproj.CoreCompileInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/ref/Memorial.Modules.Common.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/Debug/net5.0/Memorial.Modules.Common.pdb

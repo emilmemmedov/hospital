@@ -1,0 +1,253 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj": {}
+  },
+  "projects": {
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj",
+        "projectName": "Memorial.Modules.Common",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/Memorial.Modules.Hospital.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/Memorial.Modules.Hospital.Application.csproj",
+        "projectName": "Memorial.Modules.Hospital.Application",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/Memorial.Modules.Hospital.Application.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/Memorial.Modules.Hospital.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/Memorial.Modules.Hospital.Domain.csproj",
+        "projectName": "Memorial.Modules.Hospital.Domain",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/Memorial.Modules.Hospital.Domain.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj",
+        "projectName": "Memorial.Modules.Hospital.Infrastructure",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/Memorial.Modules.Hospital.Application.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Application/Memorial.Modules.Hospital.Application.csproj"
+              },
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/Memorial.Modules.Hospital.Domain.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/Memorial.Modules.Hospital.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

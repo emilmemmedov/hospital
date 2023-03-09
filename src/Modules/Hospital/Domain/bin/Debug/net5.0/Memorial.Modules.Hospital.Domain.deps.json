@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Memorial.Modules.Hospital.Domain/1.0.0": {
+        "dependencies": {
+          "Memorial.Modules.Common": "1.0.0"
+        },
+        "runtime": {
+          "Memorial.Modules.Hospital.Domain.dll": {}
+        }
+      },
+      "Memorial.Modules.Common/1.0.0": {
+        "runtime": {
+          "Memorial.Modules.Common.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Memorial.Modules.Hospital.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Memorial.Modules.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,15 @@
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/Memorial.Modules.Hospital.Domain.deps.json
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/Memorial.Modules.Hospital.Domain.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/ref/Memorial.Modules.Hospital.Domain.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/Memorial.Modules.Hospital.Domain.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.csproj.AssemblyReference.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.AssemblyInfoInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.AssemblyInfo.cs
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.csproj.CoreCompileInputs.cache
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/ref/Memorial.Modules.Hospital.Domain.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/Memorial.Modules.Common.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/bin/Debug/net5.0/Memorial.Modules.Common.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Domain/obj/Debug/net5.0/Memorial.Modules.Hospital.Domain.csproj.CopyComplete
