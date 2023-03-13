@@ -1,5 +1,4 @@
 using Autofac;
-using DefaultNamespace;
 using Memorial.Modules.Hospital.Application.Contracts;
 using Memorial.Modules.Hospital.Infrastructure;
 

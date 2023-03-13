@@ -4,7 +4,7 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Memorial.Modules.Hospital.Infrastructure.Configuration
 {
-    public class HospitalModuleStartup
+    public abstract class HospitalModuleStartup
     {
         private static IContainer _container;
 

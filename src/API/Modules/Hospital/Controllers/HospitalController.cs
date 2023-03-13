@@ -13,10 +13,12 @@ namespace Memorial.API.Modules.Hospital.Controllers
         {
             _hospitalModule = hospitalModule;
         }
+        
         [HttpPost]
         public IActionResult CreateHospital()
         {
             _hospitalModule.Create();
+            
             return Ok();
         }
     }

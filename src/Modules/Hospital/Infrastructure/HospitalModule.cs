@@ -1,5 +1,4 @@
 using System;
-using DefaultNamespace;
 using Memorial.Modules.Hospital.Application.Contracts;
 using Memorial.Modules.Hospital.Domain;
 using Memorial.Modules.Hospital.Infrastructure.Persistence;
@@ -13,6 +12,7 @@ namespace Memorial.Modules.Hospital.Infrastructure
         {
             _hospitalDbContext = hospitalDbContext;
         }
+        
         public void Create()
         {
             _hospitalDbContext.Add(new HospitalEntity()
