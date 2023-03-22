@@ -275,3 +275,4 @@ UploadedFiles
 
 #Nuke working directory
 .nuke-working-directory
+src/API/appsettings.json
