@@ -12,8 +12,8 @@ namespace Memorial.Modules.Hospital.Infrastructure.Configuration.DataAccess
         
         internal DataAccessModule(string databaseConnectionString, IServiceCollection service)
         {
-            this._databaseConnectionString = databaseConnectionString;
-            this._service = service;
+            _databaseConnectionString = databaseConnectionString;
+            _service = service;
         }
         protected override void Load(ContainerBuilder builder)
         {

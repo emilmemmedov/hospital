@@ -31,6 +31,9 @@
               },
               "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj": {
                 "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Hospital/Infrastructure/Memorial.Modules.Hospital.Infrastructure.csproj"
+              },
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/Memorial.Modules.Identity.Infrastructure.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/Memorial.Modules.Identity.Infrastructure.csproj"
               }
             }
           }
@@ -52,6 +55,10 @@
             "Autofac.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.0-rc.1.20451.17, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
@@ -314,6 +321,195 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/Memorial.Modules.Identity.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/Memorial.Modules.Identity.Application.csproj",
+        "projectName": "Memorial.Modules.Identity.Application",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/Memorial.Modules.Identity.Application.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj",
+        "projectName": "Memorial.Modules.Identity.Domain",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Common/Memorial.Modules.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/Memorial.Modules.Identity.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/Memorial.Modules.Identity.Infrastructure.csproj",
+        "projectName": "Memorial.Modules.Identity.Infrastructure",
+        "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/Memorial.Modules.Identity.Infrastructure.csproj",
+        "packagesPath": "/home/emil/.nuget/packages/",
+        "outputPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/emil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/Memorial.Modules.Identity.Application.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Application/Memorial.Modules.Identity.Application.csproj"
+              },
+              "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj": {
+                "projectPath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/Modules/Identity/Domain/Memorial.Modules.Identity.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Autofac": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.0, )"
             },

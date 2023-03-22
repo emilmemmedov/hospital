@@ -1,7 +1,7 @@
 using Memorial.Modules.Hospital.Application.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Memorial.API.Modules.Hospital.Controllers
+namespace Memorial.API.Modules.Hospital.Controller
 {
     [ApiController]
     [Route("api/v1/hospital")]

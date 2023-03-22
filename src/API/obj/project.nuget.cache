@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "l7DagG34bmutySxLVsI9yB+O54MFpIwaBd3UuA6YrQchaWzNo+9u6IyJCm1EocAMzyyuaSZDMmS0iOIozaZt5g==",
+  "dgSpecHash": "CaeCO5FvmvoiV+OHJKGMVmi5j9b93tmCiE4jNZS252u/nwgpPJuTDmWlyd17SrLwlYWOlFctWjTfIx5+MnS9lA==",
   "success": true,
   "projectFilePath": "/home/emil/Documents/projects/dotnet-core/Memorial/src/API/Memorial.API.csproj",
   "expectedPackageFiles": [
     "/home/emil/.nuget/packages/autofac/6.5.0/autofac.6.5.0.nupkg.sha512",
     "/home/emil/.nuget/packages/autofac.extensions.dependencyinjection/8.0.0/autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/5.0.0-rc.1.20451.17/microsoft.aspnetcore.authentication.jwtbearer.5.0.0-rc.1.20451.17.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.entityframeworkcore/5.0.0/microsoft.entityframeworkcore.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.entityframeworkcore.abstractions/5.0.0/microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512",
@@ -24,6 +25,11 @@
     "/home/emil/.nuget/packages/microsoft.extensions.logging.abstractions/5.0.0/microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.identitymodel.jsonwebtokens/6.7.1/microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.identitymodel.logging/6.7.1/microsoft.identitymodel.logging.6.7.1.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.identitymodel.protocols/6.7.1/microsoft.identitymodel.protocols.6.7.1.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.identitymodel.protocols.openidconnect/6.7.1/microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
+    "/home/emil/.nuget/packages/microsoft.identitymodel.tokens/6.7.1/microsoft.identitymodel.tokens.6.7.1.nupkg.sha512",
     "/home/emil/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
     "/home/emil/.nuget/packages/npgsql/5.0.0/npgsql.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/npgsql.entityframeworkcore.postgresql/5.0.0/npgsql.entityframeworkcore.postgresql.5.0.0.nupkg.sha512",
@@ -34,7 +40,9 @@
     "/home/emil/.nuget/packages/system.collections.immutable/5.0.0/system.collections.immutable.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/system.componentmodel.annotations/5.0.0/system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "/home/emil/.nuget/packages/system.diagnostics.diagnosticsource/5.0.0/system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
-    "/home/emil/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
+    "/home/emil/.nuget/packages/system.identitymodel.tokens.jwt/6.7.1/system.identitymodel.tokens.jwt.6.7.1.nupkg.sha512",
+    "/home/emil/.nuget/packages/system.runtime.compilerservices.unsafe/4.6.0/system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512",
+    "/home/emil/.nuget/packages/system.security.cryptography.cng/4.5.0/system.security.cryptography.cng.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

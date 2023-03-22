@@ -1,6 +1,6 @@
 using System;
 using Memorial.Modules.Hospital.Application.Contracts;
-using Memorial.Modules.Hospital.Domain;
+using Memorial.Modules.Hospital.Domain.Models;
 using Memorial.Modules.Hospital.Infrastructure.Persistence;
 
 namespace Memorial.Modules.Hospital.Infrastructure

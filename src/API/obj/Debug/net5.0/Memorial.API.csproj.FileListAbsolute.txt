@@ -45,3 +45,16 @@
 /home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll
 /home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Npgsql.dll
 /home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Npgsql.EntityFrameworkCore.PostgreSQL.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.IdentityModel.Logging.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Microsoft.IdentityModel.Tokens.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/System.IdentityModel.Tokens.Jwt.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Application.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Domain.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Infrastructure.dll
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Application.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Domain.pdb
+/home/emil/Documents/projects/dotnet-core/Memorial/src/API/bin/Debug/net5.0/Memorial.Modules.Identity.Infrastructure.pdb
