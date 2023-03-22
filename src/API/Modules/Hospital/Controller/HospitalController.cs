@@ -1,7 +1,7 @@
 using Memorial.Modules.Hospital.Application.Contracts;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Memorial.API.Modules.Hospital.Controllers
+namespace Memorial.API.Modules.Hospital.Controller
 {
     [ApiController]
     [Route("api/v1/hospital")]
@@ -13,10 +13,12 @@ namespace Memorial.API.Modules.Hospital.Controllers
         {
             _hospitalModule = hospitalModule;
         }
+        
         [HttpPost]
         public IActionResult CreateHospital()
         {
             _hospitalModule.Create();
+            
             return Ok();
         }
     }

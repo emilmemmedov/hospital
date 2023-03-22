@@ -1,4 +1,5 @@
 using Memorial.Modules.Hospital.Domain;
+using Memorial.Modules.Hospital.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace Memorial.Modules.Hospital.Infrastructure.Persistence

@@ -1,22 +1,15 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Autofac;
-using Autofac.Extensions.DependencyInjection;
+using Memorial.API.Configuration.Auth;
 using Memorial.API.Modules.Hospital;
-using Memorial.Modules.Hospital.Infrastructure;
-using Memorial.Modules.Hospital.Infrastructure.Persistence;
+using Memorial.API.Modules.Identity;
+using Memorial.Modules.Hospital.Infrastructure.Configuration;
+using Memorial.Modules.Identity.Infrastructure.Configuration;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 
 namespace Memorial.API
@@ -33,11 +26,14 @@ namespace Memorial.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            // services.AddEntityFrameworkNpgsql().AddDbContext<HospitalDbContext>(options =>
-            // {
-            //     options.UseNpgsql(Configuration.GetConnectionString("PostgresDBConnection"));
-            // });
+            InitializeModules(services);
+            
             services.AddControllers();
+            services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
+            services.ConfigureOptions<JwtOptionsSetup>();
+            services.ConfigureOptions<JwtBearerOptionsSetup>();
+            services.AddSingleton<IJwtProvider, JwtProvider>();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Memorial.API", Version = "v1" });
@@ -47,10 +43,6 @@ namespace Memorial.API
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-            var container = app.ApplicationServices.GetAutofacRoot();
-            
-            InitializeModules(container);
-            
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
@@ -64,21 +56,32 @@ namespace Memorial.API
 
             app.UseAuthorization();
 
+            app.UseAuthentication();
+
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
             });
         }
+        
         public void ConfigureContainer(ContainerBuilder containerBuilder)
         {
             containerBuilder.RegisterModule(new HospitalAutofacModule());
+            containerBuilder.RegisterModule(new IdentityAutofacModule());
         }
 
-        private void InitializeModules(ILifetimeScope container)
+        private void InitializeModules(IServiceCollection service)
         {
             HospitalModuleStartup
                 .Initialize(
-                    Configuration.GetConnectionString("PostgresDBConnection")
+                    Configuration.GetConnectionString("PostgresDBConnection"),
+                    service
+                );
+            
+            IdentityModuleStartup
+                .Initialize(
+                    Configuration.GetConnectionString("PostgresDBConnection"),
+                    service
                 );
         }
     }

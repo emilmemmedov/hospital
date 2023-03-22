@@ -1,6 +1,6 @@
 using Memorial.Modules.Common.Models;
 
-namespace Memorial.Modules.Hospital.Domain
+namespace Memorial.Modules.Hospital.Domain.Models
 {
     public class HospitalEntity: BaseModel
     {

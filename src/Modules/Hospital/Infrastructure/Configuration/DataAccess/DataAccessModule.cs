@@ -1,30 +1,26 @@
 using Autofac;
-using DefaultNamespace;
 using Memorial.Modules.Hospital.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace Memorial.Modules.Hospital.Infrastructure.Configuration.DataAccess
 {
     public class DataAccessModule: Module
     {
-        private readonly string databaseConnectionString;
+        private readonly string _databaseConnectionString;
+        private readonly IServiceCollection _service;
         
-        internal DataAccessModule(string databaseConnectionString)
+        internal DataAccessModule(string databaseConnectionString, IServiceCollection service)
         {
-            this.databaseConnectionString = databaseConnectionString;
+            _databaseConnectionString = databaseConnectionString;
+            _service = service;
         }
         protected override void Load(ContainerBuilder builder)
         {
-            builder
-                .Register(container =>
-                {
-                    var dbContextOptionsBuilder = new DbContextOptionsBuilder<HospitalDbContext>();
-                    dbContextOptionsBuilder.UseNpgsql(databaseConnectionString);
-                    return new HospitalDbContext(dbContextOptionsBuilder.Options);
-                })
-                .AsSelf()
-                .As<DbContext>()
-                .InstancePerLifetimeScope();
+            _service.AddEntityFrameworkNpgsql().AddDbContext<HospitalDbContext>(options =>
+            {
+                options.UseNpgsql(_databaseConnectionString);
+            });
         }
     }
 }
